@@ -31,7 +31,7 @@ cd gree__tasks
 - criar um arquivo .env e copiar o conteúdo de .env-example e realizar as alterações necessárias
 
 ```bash
-  copy .env-example .env
+  cp .env-example .env
 ```
 
 > Realizar o comando acima dentro da pasta do projeto
