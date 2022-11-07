@@ -1,8 +1,15 @@
 // Fonts
 @import url('https://fonts.googleapis.com/css?family=Nunito');
+@import "/node_modules/@mdi/font/scss/materialdesignicons.scss";
 
 // Variables
 @import 'variables';
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+
+div.card-header {
+  background-color: $primary;
+  color: white;
+}

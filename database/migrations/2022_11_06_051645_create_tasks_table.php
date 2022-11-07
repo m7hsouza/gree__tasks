@@ -20,6 +20,7 @@ class CreateTasksTable extends Migration
             $table->foreign('user_id')->references('id')->on('users');
             $table->unsignedBigInteger('stage_id');
             $table->foreign('stage_id')->references('id')->on('task_stages');
+            $table->integer('progress')->default(0);
             $table->timestamps();
         });
     }
